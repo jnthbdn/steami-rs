@@ -3,6 +3,11 @@ authors = ["Jonathan BAUDIN <jjbaudin@gmail.com>"]
 name = "steami-rs"
 edition = "2021"
 version = "0.1.0"
+license = "GPL-3.0-or-later"
+description = "Board support crate for the STeaMi (steami.cc)"
+homepage = "https://steami.cc"
+repository = "https://github.com/jnthbdn/steami-rs"
+readme = "README.md"
 
 [dependencies]
 defmt = "0.3.4"
