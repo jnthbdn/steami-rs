@@ -2,7 +2,7 @@
 authors = ["Jonathan BAUDIN <jjbaudin@gmail.com>"]
 name = "steami-rs"
 edition = "2021"
-version = "0.1.0"
+version = "0.1.1"
 license = "GPL-3.0-or-later"
 description = "Board support crate for the STeaMi (steami.cc)"
 homepage = "https://steami.cc"
@@ -26,7 +26,7 @@ hal = { package = "stm32-hal2", version = "^1.8.3", features = ["wb55"]}
 [dev-dependencies]
 circular-buffer = { version = "0.1.9", default-features = false }
 embedded-alloc = "0.6.0"
-jacdac-rs = {path = "../jacdac-rs"}
+jacdac-rs = "0.1.0"
 
 
 # cargo build/run
